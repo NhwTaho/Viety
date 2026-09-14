@@ -20,7 +20,7 @@ export default function Header({ cartCount, onOpenCart, onOpenTracking, searchQu
           {/* LOGO */}
           <a href="#" className="flex items-center gap-3 group">
             <img 
-              src="images/logoviety.png" 
+              src="/images/logoviety.png" 
               alt="Máy Pha Cà Phê Việt Ý" 
               className="h-12 w-auto object-contain transition-transform group-hover:scale-105" 
             />

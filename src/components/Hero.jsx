@@ -77,7 +77,7 @@ export default function Hero({ onOpenTracking, onOpenCheckout }) {
               {/* Product Image */}
               <div className="relative aspect-[4/3] bg-slate-100 overflow-hidden">
                 <img
-                  src="images/máy-pha-cà-phê-wega-airy-2-group.jpg"
+                  src="/images/máy-pha-cà-phê-wega-airy-2-group.jpg"
                   alt="WEGA AIRY EVD 2GR Flagship Espresso Machine"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />

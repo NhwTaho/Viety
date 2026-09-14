@@ -7,28 +7,28 @@ const REAL_ITEMS = [
     title: "Bàn giao máy Wega tại Quận 1",
     tag: "Trọn gói lắp đặt & đào tạo nhân viên",
     desc: "Hình ảnh kỹ thuật viên Việt Ý hoàn thiện bàn giao & căn chỉnh máy pha Wega EVD 2 Group tại quán cà phê cao cấp Quận 1, TP.HCM.",
-    image: "images/real_wega_q1.jpg"
+    image: "/images/real_wega_q1.jpg"
   },
   {
     id: 2,
     title: "Kỹ Thuật Căn Chỉnh Áp Suất 9 Bar",
     tag: "Kiểm tra chi tiết trước khi xuất xưởng",
     desc: "Quy trình đo áp suất bơm 9 Bar chuẩn Espresso và kiểm tra nhiệt độ nước ổn định 92°C trước khi niêm phong giao cho khách.",
-    image: "images/real_pressure_9bar.jpg"
+    image: "/images/real_pressure_9bar.jpg"
   },
   {
     id: 3,
     title: "Showroom Quận 12 Sẵn Máy Thử",
     tag: "Khách hàng trực tiếp test máy & nếm cà phê",
     desc: "Showroom Việt Ý tại Quận 12 có sẵn hơn 50+ dòng máy pha Ý chính hãng. Khách hàng có thể mang hạt cà phê riêng đến test thử máy thoải mái.",
-    image: "images/real_showroom_q12.jpg"
+    image: "/images/real_showroom_q12.jpg"
   },
   {
     id: 4,
     title: "Chuyển Giao Công Thức Pha Chế",
     tag: "Tặng trọn bộ công thức menu mở quán",
     desc: "Chuyên gia Barista của Việt Ý hướng dẫn chủ quán cách chiết xuất Espresso chuẩn vị, kỹ thuật đánh sữa Latte Art và định lượng nguyên liệu.",
-    image: "images/real_barista_recipe.jpg"
+    image: "/images/real_barista_recipe.jpg"
   }
 ];
 

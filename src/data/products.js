@@ -8,7 +8,7 @@ export const PRODUCTS = [
         price: 150000000,
         oldPrice: 170000000,
         badge: "Ý Chính Hãng",
-        image: "images/polaris-1.png",
+        image: "/images/polaris-1.png",
         origin: "Ý (Italy)",
         warranty: "24 Tháng",
         specs: "Nồi hơi 12L | Công suất 3400W"
@@ -21,7 +21,7 @@ export const PRODUCTS = [
         price: 130000000,
         oldPrice: 140000000,
         badge: "Bán Chạy",
-        image: "images/wega-rover.png",
+        image: "/images/wega-rover.png",
         origin: "Ý (Italy)",
         warranty: "24 Tháng",
         specs: "Nồi hơi 10.5L | Thép chống gỉ"
@@ -34,7 +34,7 @@ export const PRODUCTS = [
         price: 169000000,
         oldPrice: 185000000,
         badge: "Flagship 2026",
-        image: "images/máy-pha-cà-phê-wega-airy-2-group.jpg",
+        image: "/images/máy-pha-cà-phê-wega-airy-2-group.jpg",
         origin: "Ý (Italy)",
         warranty: "24 Tháng",
         specs: "Shot Timer | Nồi hơi 12L"
@@ -47,7 +47,7 @@ export const PRODUCTS = [
         price: 69500000,
         oldPrice: 72500000,
         badge: "Giá Cực Tốt",
-        image: "images/wega_pegaso.jpg",
+        image: "/images/wega_pegaso.jpg",
         origin: "Ý (Italy)",
         warranty: "24 Tháng",
         specs: "Nồi hơi 10.5L | 350 ly/ngày"
@@ -60,7 +60,7 @@ export const PRODUCTS = [
         price: 45000000,
         oldPrice: 48000000,
         badge: "Ưu Đãi",
-        image: "images/máy-pha-cà-phê-wega-lunna-2-group.jpg",
+        image: "/images/máy-pha-cà-phê-wega-lunna-2-group.jpg",
         origin: "Ý (Italy)",
         warranty: "24 Tháng",
         specs: "Nồi hơi 5L | 150 ly/ngày"
@@ -75,7 +75,7 @@ export const PRODUCTS = [
         price: 73900000,
         oldPrice: 77900000,
         badge: "Ý Chính Hãng",
-        image: "images/casadio_undici.jpg",
+        image: "/images/casadio_undici.jpg",
         origin: "Ý (Italy)",
         warranty: "24 Tháng",
         specs: "Nồi hơi 10.5L | Thân máy thép không gỉ"
@@ -88,7 +88,7 @@ export const PRODUCTS = [
         price: 41900000,
         oldPrice: 45900000,
         badge: "Quán Nhỏ",
-        image: "images/casadio_undici.jpg",
+        image: "/images/casadio_undici.jpg",
         origin: "Ý (Italy)",
         warranty: "24 Tháng",
         specs: "Nồi hơi 5L | Thích hợp takeaway"
@@ -103,7 +103,7 @@ export const PRODUCTS = [
         price: 80000000,
         oldPrice: 92000000,
         badge: "Huyền Thoại",
-        image: "images/m27.jpg",
+        image: "/images/m27.jpg",
         origin: "Ý (Italy)",
         warranty: "24 Tháng",
         specs: "Nồi hơi 11L | Nồi đồng nguyên khối"
@@ -116,7 +116,7 @@ export const PRODUCTS = [
         price: 34000000,
         oldPrice: 42000000,
         badge: "Tiết Kiệm",
-        image: "images/LaCimbali-M27.jpg",
+        image: "/images/LaCimbali-M27.jpg",
         origin: "Ý (Italy)",
         warranty: "12 Tháng",
         specs: "Kiểm định kĩ thuật 99%"
@@ -131,7 +131,7 @@ export const PRODUCTS = [
         price: 89900000,
         oldPrice: 98000000,
         badge: "Thế Hệ Mới",
-        image: "images/Máy pha cà phê Nuova Simonelli Appia II 2 Group.jpg",
+        image: "/images/Máy pha cà phê Nuova Simonelli Appia II 2 Group.jpg",
         origin: "Ý (Italy)",
         warranty: "24 Tháng",
         specs: "Công nghệ SIS gia nhiệt tự động | Nồi 11L"
@@ -144,7 +144,7 @@ export const PRODUCTS = [
         price: 63500000,
         oldPrice: 70000000,
         badge: "Bán Chạy",
-        image: "images/nuova-simonelli-appia-1.jpg",
+        image: "/images/nuova-simonelli-appia-1.jpg",
         origin: "Ý (Italy)",
         warranty: "24 Tháng",
         specs: "Nồi hơi 5L | Tiết kiệm điện năng"
@@ -159,7 +159,7 @@ export const PRODUCTS = [
         price: 82000000,
         oldPrice: 89000000,
         badge: "Thép Nguyên Khối",
-        image: "images/racilio-classe-5.jpg",
+        image: "/images/racilio-classe-5.jpg",
         origin: "Ý (Italy)",
         warranty: "24 Tháng",
         specs: "Hệ thống gia nhiệt chuẩn Italy | 11L"
@@ -172,7 +172,7 @@ export const PRODUCTS = [
         price: 58000000,
         oldPrice: 65000000,
         badge: "Giá Tốt",
-        image: "images/may-pha-ca-phe-expobar-markus-2-gr.jpg",
+        image: "/images/may-pha-ca-phe-expobar-markus-2-gr.jpg",
         origin: "Tây Ban Nha",
         warranty: "24 Tháng",
         specs: "Nồi hơi 11.5L | Phím điều khiển tự động"
@@ -187,7 +187,7 @@ export const PRODUCTS = [
         price: 19500000,
         oldPrice: 22000000,
         badge: "Màn Hình Cảm Ứng",
-        image: "images/May-pha-ca-phe-Fiorenzato-F64E.jpg",
+        image: "/images/May-pha-ca-phe-Fiorenzato-F64E.jpg",
         origin: "Ý (Italy)",
         warranty: "12 Tháng",
         specs: "Đĩa xay 64mm | Định lượng chính xác 0.1s"
@@ -200,7 +200,7 @@ export const PRODUCTS = [
         price: 8500000,
         oldPrice: 9500000,
         badge: "Takeaway Chuẩn",
-        image: "images/JX600AD-ONDEMAND.jpg",
+        image: "/images/JX600AD-ONDEMAND.jpg",
         origin: "Đài Loan",
         warranty: "12 Tháng",
         specs: "Xay 10-12kg/giờ | Đĩa 64mm"
@@ -213,7 +213,7 @@ export const PRODUCTS = [
         price: 16500000,
         oldPrice: 18000000,
         badge: "Cao Cấp",
-        image: "images/eureka_grinder.jpg",
+        image: "/images/eureka_grinder.jpg",
         origin: "Ý (Italy)",
         warranty: "12 Tháng",
         specs: "Tốc độ xay cực nhanh | Êm ái"
