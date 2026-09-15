@@ -20,7 +20,7 @@ export default function FloatingActions({ onOpenTracking }) {
       {/* PHONE HOTLINE */}
       <a
         href="tel:0972006789"
-        className="w-12 h-12 bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-xl flex items-center justify-center transition-all hover:scale-110 active:scale-95 group relative"
+        className="w-12 h-12 bg-red-600 hover:bg-red-700 text-white rounded-full shadow-xl shadow-red-600/30 flex items-center justify-center transition-all hover:scale-110 active:scale-95 group relative cursor-pointer"
         title="Gọi Hotline"
       >
         <Phone className="w-5 h-5" />

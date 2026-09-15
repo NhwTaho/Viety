@@ -22,12 +22,12 @@ export default function CartDrawer({ isOpen, onClose, cartItems, onUpdateQuantit
           {/* HEADER */}
           <div className="p-5 border-b border-slate-100 flex items-center justify-between bg-slate-50">
             <h3 className="font-bold text-base text-slate-900 flex items-center gap-2">
-              <ShoppingBag className="w-5 h-5 text-blue-600" />
+              <ShoppingBag className="w-5 h-5 text-red-600" />
               Giỏ Hàng Của Bạn ({cartItems.reduce((a, c) => a + c.quantity, 0)})
             </h3>
             <button 
               onClick={onClose}
-              className="p-1 text-slate-400 hover:text-slate-600 rounded-full hover:bg-slate-200 transition"
+              className="p-1 text-slate-400 hover:text-slate-600 rounded-full hover:bg-slate-200 transition cursor-pointer"
             >
               <X className="w-5 h-5" />
             </button>
@@ -41,7 +41,7 @@ export default function CartDrawer({ isOpen, onClose, cartItems, onUpdateQuantit
                 <p className="text-sm font-semibold text-slate-500">Giỏ hàng hiện tại đang trống</p>
                 <button
                   onClick={onClose}
-                  className="text-xs text-blue-600 font-bold hover:underline"
+                  className="text-xs text-red-600 font-bold hover:underline cursor-pointer"
                 >
                   Khám phá các loại máy pha cà phê ngay
                 </button>
@@ -62,14 +62,14 @@ export default function CartDrawer({ isOpen, onClose, cartItems, onUpdateQuantit
                     <h4 className="text-xs font-bold text-slate-900 truncate">
                       {item.title}
                     </h4>
-                    <div className="text-xs font-extrabold text-blue-600 mt-0.5">
+                    <div className="text-xs font-extrabold text-red-600 mt-0.5">
                       {formatVND(item.price)}
                     </div>
 
                     <div className="flex items-center gap-2 mt-2">
                       <button
                         onClick={() => onUpdateQuantity(item.id, item.quantity - 1)}
-                        className="p-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-600"
+                        className="p-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-600 cursor-pointer"
                       >
                         <Minus className="w-3 h-3" />
                       </button>
@@ -78,7 +78,7 @@ export default function CartDrawer({ isOpen, onClose, cartItems, onUpdateQuantit
                       </span>
                       <button
                         onClick={() => onUpdateQuantity(item.id, item.quantity + 1)}
-                        className="p-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-600"
+                        className="p-1 bg-white border border-slate-200 rounded-md hover:bg-slate-100 text-slate-600 cursor-pointer"
                       >
                         <Plus className="w-3 h-3" />
                       </button>
@@ -87,7 +87,7 @@ export default function CartDrawer({ isOpen, onClose, cartItems, onUpdateQuantit
 
                   <button
                     onClick={() => onRemoveItem(item.id)}
-                    className="p-1.5 text-slate-400 hover:text-red-500 transition"
+                    className="p-1.5 text-slate-400 hover:text-red-600 transition cursor-pointer"
                     title="Xóa khỏi giỏ"
                   >
                     <Trash2 className="w-4 h-4" />
@@ -102,12 +102,12 @@ export default function CartDrawer({ isOpen, onClose, cartItems, onUpdateQuantit
             <div className="p-5 border-t border-slate-100 bg-slate-50 space-y-4">
               <div className="flex items-center justify-between text-sm font-extrabold text-slate-900">
                 <span>Tổng Cộng:</span>
-                <span className="text-xl text-blue-600">{formatVND(total)}</span>
+                <span className="text-xl text-red-600">{formatVND(total)}</span>
               </div>
 
               <button
                 onClick={() => { onClose(); onOpenCheckout(); }}
-                className="w-full py-3.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm rounded-xl shadow-lg shadow-blue-500/25 transition flex items-center justify-center gap-2"
+                className="w-full py-3.5 bg-red-600 hover:bg-red-700 text-white font-bold text-sm rounded-xl shadow-lg shadow-red-600/25 transition flex items-center justify-center gap-2 cursor-pointer"
               >
                 Gửi Yêu Cầu Báo Giá Trọn Gói <ArrowRight className="w-4 h-4" />
               </button>

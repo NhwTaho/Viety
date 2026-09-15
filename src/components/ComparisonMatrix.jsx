@@ -106,10 +106,10 @@ export default function ComparisonMatrix() {
                 ))}
               </tr>
 
-              <tr className="hover:bg-slate-50 bg-blue-50/50">
-                <td className="p-4 font-extrabold text-slate-900 bg-blue-100/50">Giá Niêm Yết</td>
+              <tr className="hover:bg-slate-50 bg-slate-50">
+                <td className="p-4 font-extrabold text-slate-900 bg-slate-100/80">Giá Niêm Yết</td>
                 {MACHINES.map((m, i) => (
-                  <td key={i} className="p-4 text-center font-black text-blue-700 text-base">
+                  <td key={i} className="p-4 text-center font-black text-slate-900 text-base">
                     {formatVND(m.price)}
                   </td>
                 ))}

@@ -8,20 +8,20 @@ export default function Hero({ onOpenTracking, onOpenCheckout }) {
   };
 
   return (
-    <section className="relative bg-gradient-to-b from-blue-50/60 via-slate-50 to-white py-12 md:py-16 overflow-hidden">
+    <section className="relative bg-gradient-to-b from-red-50/50 via-slate-50 to-white py-12 md:py-16 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           
           {/* LEFT CONTENT */}
           <div className="lg:col-span-7 space-y-6 text-left">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-100/80 border border-blue-200 text-blue-800 font-semibold text-xs tracking-wide uppercase shadow-xs">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-slate-800 font-semibold text-xs tracking-wide uppercase shadow-xs">
               <Award className="w-4 h-4 text-blue-600" />
               <span>THƯƠNG HIỆU NHẬP KHẨU Ý CHÍNH HÃNG</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 leading-tight">
               Công Ty TNHH TM XNK <br className="hidden sm:block" />
-              <span className="text-blue-600 bg-clip-text bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 text-transparent">
+              <span className="text-slate-900 bg-clip-text bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900 text-transparent">
                 Máy Pha Cà Phê Việt Ý
               </span>
             </h1>
@@ -44,16 +44,16 @@ export default function Hero({ onOpenTracking, onOpenCheckout }) {
 
               <button
                 onClick={() => scrollTo('productsSection')}
-                className="inline-flex items-center gap-2 px-5 py-3.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm rounded-xl shadow-md shadow-blue-500/20 transition-all hover:-translate-y-0.5"
+                className="inline-flex items-center gap-2 px-5 py-3.5 bg-red-600 hover:bg-red-700 text-white font-bold text-sm rounded-xl shadow-md shadow-red-600/20 hover:shadow-red-600/30 transition-all hover:-translate-y-0.5 cursor-pointer"
               >
                 <Coffee className="w-4 h-4" /> Xem Các Loại Máy Pha
               </button>
 
               <button
                 onClick={() => scrollTo('calculatorSection')}
-                className="inline-flex items-center gap-2 px-5 py-3.5 bg-white hover:bg-slate-50 text-slate-800 font-semibold text-sm rounded-xl border border-slate-200 shadow-sm hover:border-slate-300 transition-all"
+                className="inline-flex items-center gap-2 px-5 py-3.5 bg-white hover:bg-slate-50 text-slate-800 font-semibold text-sm rounded-xl border border-slate-200 shadow-sm hover:border-red-300 transition-all cursor-pointer"
               >
-                <Calculator className="w-4 h-4 text-blue-600" /> Dự Toán Mở Quán
+                <Calculator className="w-4 h-4 text-red-600" /> Dự Toán Mở Quán
               </button>
             </div>
 

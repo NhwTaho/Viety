@@ -41,13 +41,13 @@ export default function RealGallery() {
         
         {/* HEADER */}
         <div className="text-center max-w-3xl mx-auto mb-10">
-          <span className="text-blue-600 font-extrabold text-xs tracking-widest uppercase block mb-2">
+          <span className="text-red-600 font-extrabold text-xs tracking-widest uppercase block mb-2">
             HÌNH ẢNH THỰC TẾ
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 leading-tight mb-3">
             Bàn Giao & Lắp Đặt Tận Nơi Cho Khách Hàng
           </h2>
-          <div className="w-12 h-1 bg-blue-600 rounded-full mx-auto mb-4"></div>
+          <div className="w-12 h-1 bg-red-600 rounded-full mx-auto mb-4"></div>
           <p className="text-sm sm:text-base text-slate-500 leading-relaxed">
             Ghi nhận những khoảnh khắc kỹ thuật viên Việt Ý bàn giao máy, test áp suất và hướng dẫn chủ quán tại TP.HCM và các tỉnh thành toàn quốc. Click vào hình để xem chi tiết!
           </p>
@@ -115,8 +115,8 @@ export default function RealGallery() {
 
               <div className="md:col-span-5 p-6 flex flex-col justify-between space-y-5 bg-white">
                 <div>
-                  <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-blue-50 text-blue-700 font-bold text-xs mb-3">
-                    <ShieldCheck className="w-3.5 h-3.5" />
+                  <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-red-50 text-red-700 font-bold text-xs mb-3">
+                    <ShieldCheck className="w-3.5 h-3.5 text-red-600" />
                     <span>Hình ảnh bàn giao thực tế</span>
                   </div>
 

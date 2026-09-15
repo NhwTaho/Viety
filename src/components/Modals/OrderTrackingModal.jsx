@@ -59,8 +59,8 @@ export default function OrderTrackingModal({ isOpen, onClose }) {
             <X className="w-5 h-5" />
           </button>
 
-          <div className="flex items-center gap-2 text-blue-600 font-extrabold text-lg mb-1">
-            <Truck className="w-6 h-6" /> Tra Cứu Tiến Độ Đơn Hàng
+          <div className="flex items-center gap-2 text-slate-900 font-extrabold text-lg mb-1">
+            <Truck className="w-6 h-6 text-blue-600" /> Tra Cứu Tiến Độ Đơn Hàng
           </div>
           <p className="text-xs text-slate-500 mb-6">
             Nhập Mã đơn (VD: VY-88492) hoặc SĐT Zalo để kiểm tra quy trình xuất kho, vận chuyển & kỹ thuật lắp đặt.
@@ -73,11 +73,11 @@ export default function OrderTrackingModal({ isOpen, onClose }) {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Nhập mã đơn (VD: VY-88492) hoặc SĐT Zalo..."
-              className="flex-1 px-4 py-2.5 text-xs font-semibold bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-blue-500"
+              className="flex-1 px-4 py-2.5 text-xs font-semibold bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-slate-400"
             />
             <button
               type="submit"
-              className="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs rounded-xl shadow-md transition flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
+              className="px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs rounded-xl shadow-sm transition flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
             >
               <Search className="w-4 h-4" /> Tra Cứu
             </button>
@@ -88,20 +88,20 @@ export default function OrderTrackingModal({ isOpen, onClose }) {
             <span className="text-[11px] font-semibold text-slate-400">Mẫu xem thử:</span>
             <button
               onClick={() => fillDemo('VY-88492')}
-              className="px-3 py-1 bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-blue-700 text-xs font-semibold rounded-full border border-slate-200 transition"
+              className="px-3 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold rounded-full border border-slate-200 transition cursor-pointer"
             >
               VY-88492 (Đang giao hàng)
             </button>
             <button
               onClick={() => fillDemo('VY-99120')}
-              className="px-3 py-1 bg-slate-100 hover:bg-emerald-50 text-slate-700 hover:text-emerald-700 text-xs font-semibold rounded-full border border-slate-200 transition"
+              className="px-3 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold rounded-full border border-slate-200 transition cursor-pointer"
             >
               VY-99120 (Đã hoàn tất)
             </button>
           </div>
 
           {errorMsg && (
-            <div className="p-3 bg-red-50 border border-red-200 text-red-600 font-semibold text-xs rounded-xl mb-4">
+            <div className="p-3 bg-rose-50 border border-rose-200 text-rose-700 font-semibold text-xs rounded-xl mb-4">
               {errorMsg}
             </div>
           )}
@@ -111,7 +111,7 @@ export default function OrderTrackingModal({ isOpen, onClose }) {
             <div className="bg-slate-50 rounded-2xl p-5 border border-slate-200 space-y-4 text-xs animate-in fade-in">
               <div className="flex items-center justify-between pb-3 border-b border-slate-200">
                 <div>
-                  <span className="font-extrabold text-blue-700 text-sm">{result.code}</span>
+                  <span className="font-extrabold text-slate-900 text-sm">{result.code}</span>
                   <div className="text-slate-600 font-medium">{result.customerName}</div>
                 </div>
                 <span className={`px-2.5 py-1 font-extrabold rounded-full text-[11px] ${
@@ -133,7 +133,7 @@ export default function OrderTrackingModal({ isOpen, onClose }) {
                     key={s.step}
                     className={`p-2 rounded-xl border flex flex-col items-center gap-1 ${
                       result.step >= s.step
-                        ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
+                        ? 'bg-slate-900 text-white border-slate-900 shadow-xs'
                         : 'bg-slate-100 text-slate-400 border-slate-200'
                     }`}
                   >

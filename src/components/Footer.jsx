@@ -34,22 +34,22 @@ export default function Footer({ onOpenCheckout }) {
             </h3>
             <ul className="space-y-2 text-xs text-slate-400 font-medium">
               <li>
-                <button onClick={() => scrollTo('productsSection')} className="hover:text-blue-400 transition">
+                <button onClick={() => scrollTo('productsSection')} className="hover:text-red-400 transition cursor-pointer">
                   Máy pha cà phê Wega
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollTo('productsSection')} className="hover:text-blue-400 transition">
+                <button onClick={() => scrollTo('productsSection')} className="hover:text-red-400 transition cursor-pointer">
                   Máy pha Nuova Simonelli
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollTo('productsSection')} className="hover:text-blue-400 transition">
+                <button onClick={() => scrollTo('productsSection')} className="hover:text-red-400 transition cursor-pointer">
                   Máy pha La Cimbali
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollTo('productsSection')} className="hover:text-blue-400 transition">
+                <button onClick={() => scrollTo('productsSection')} className="hover:text-red-400 transition cursor-pointer">
                   Máy pha Rancilio & Expobar
                 </button>
               </li>
@@ -63,22 +63,22 @@ export default function Footer({ onOpenCheckout }) {
             </h3>
             <ul className="space-y-2 text-xs text-slate-400 font-medium">
               <li>
-                <button onClick={() => scrollTo('calculatorSection')} className="hover:text-blue-400 transition">
+                <button onClick={() => scrollTo('calculatorSection')} className="hover:text-red-400 transition cursor-pointer">
                   Dự toán chi phí mở quán
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollTo('comparisonSection')} className="hover:text-blue-400 transition">
+                <button onClick={() => scrollTo('comparisonSection')} className="hover:text-red-400 transition cursor-pointer">
                   So sánh kỹ thuật máy
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollTo('realGallerySection')} className="hover:text-blue-400 transition">
+                <button onClick={() => scrollTo('realGallerySection')} className="hover:text-red-400 transition cursor-pointer">
                   Hình ảnh bàn giao thực tế
                 </button>
               </li>
               <li>
-                <button onClick={onOpenCheckout} className="hover:text-blue-400 transition text-blue-400 font-bold">
+                <button onClick={onOpenCheckout} className="hover:text-red-400 transition text-red-400 font-bold cursor-pointer">
                   Nhận báo giá trọn gói Zalo
                 </button>
               </li>
@@ -101,20 +101,20 @@ export default function Footer({ onOpenCheckout }) {
                 <span>Chat Zalo Kỹ Thuật (24/7)</span>
               </a>
 
-              <a href="tel:0972006789" className="flex items-center gap-2 hover:text-blue-400 transition">
-                <Phone className="w-4 h-4 text-blue-500 shrink-0" />
+              <a href="tel:0972006789" className="flex items-center gap-2 hover:text-red-400 transition">
+                <Phone className="w-4 h-4 text-red-500 shrink-0" />
                 <span>Hotline 1: <strong>0972.006.789</strong></span>
               </a>
-              <a href="tel:0948014789" className="flex items-center gap-2 hover:text-blue-400 transition">
-                <Phone className="w-4 h-4 text-blue-500 shrink-0" />
+              <a href="tel:0948014789" className="flex items-center gap-2 hover:text-red-400 transition">
+                <Phone className="w-4 h-4 text-red-500 shrink-0" />
                 <span>Hotline 2: <strong>0948.014.789</strong></span>
               </a>
               <div className="flex items-start gap-2 text-slate-400">
-                <MapPin className="w-4 h-4 text-blue-500 shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 text-red-500 shrink-0 mt-0.5" />
                 <span>Showroom: Tân Bình & Quận 12, TP. HCM</span>
               </div>
               <div className="flex items-center gap-2 text-slate-400">
-                <Clock className="w-4 h-4 text-blue-500 shrink-0" />
+                <Clock className="w-4 h-4 text-red-500 shrink-0" />
                 <span>Giờ làm việc: 8:00 - 18:00 (Tất cả các ngày)</span>
               </div>
             </div>

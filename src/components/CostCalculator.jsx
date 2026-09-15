@@ -74,7 +74,7 @@ export default function CostCalculator({ onOpenCheckout }) {
             <div>
               <div className="flex justify-between items-center mb-2">
                 <label className="text-sm font-semibold text-slate-700">Số lượng ly cà phê/ngày:</label>
-                <span className="px-3 py-1 bg-blue-100 text-blue-800 font-extrabold text-sm rounded-full">
+                <span className="px-3.5 py-1 bg-slate-100 text-slate-900 font-extrabold text-sm rounded-full border border-slate-200">
                   {cups} ly/ngày
                 </span>
               </div>
@@ -85,7 +85,7 @@ export default function CostCalculator({ onOpenCheckout }) {
                 step="10"
                 value={cups}
                 onChange={(e) => setCups(Number(e.target.value))}
-                className="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-600"
+                className="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-slate-900"
               />
               <div className="flex justify-between text-[11px] font-semibold text-slate-400 mt-1">
                 <span>50 ly (Mô hình nhỏ)</span>
@@ -108,7 +108,7 @@ export default function CostCalculator({ onOpenCheckout }) {
                     onClick={() => setModelType(m.id)}
                     className={`py-3 px-2 text-xs sm:text-sm font-bold rounded-xl border transition-all cursor-pointer ${
                       modelType === m.id
-                        ? 'bg-blue-600 border-blue-600 text-white shadow-md shadow-blue-500/25 scale-[1.02]'
+                        ? 'bg-slate-900 border-slate-900 text-white shadow-md shadow-slate-900/20 scale-[1.02]'
                         : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
                     }`}
                   >
@@ -132,7 +132,7 @@ export default function CostCalculator({ onOpenCheckout }) {
               <ul className="space-y-2.5 text-xs text-slate-300">
                 {currentPkg.items.map((item, idx) => (
                   <li key={idx} className="flex items-start gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-blue-400 shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -157,7 +157,7 @@ export default function CostCalculator({ onOpenCheckout }) {
 
                 <button
                   onClick={onOpenCheckout}
-                  className="w-full py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-xs rounded-xl border border-slate-700 transition flex items-center justify-center gap-2 cursor-pointer"
+                  className="w-full py-3 bg-red-600 hover:bg-red-700 text-white font-bold text-xs rounded-xl shadow-lg shadow-red-600/25 transition flex items-center justify-center gap-2 cursor-pointer"
                 >
                   Đặt Hàng / Nhận Tư Vấn Gọi Lại
                 </button>
