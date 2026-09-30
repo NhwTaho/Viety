@@ -157,9 +157,12 @@ img {
 }
 
 .real-logo {
+    height: 42px;
     max-height: 42px;
     width: auto;
     object-fit: contain;
+    flex-shrink: 0;
+    aspect-ratio: 278 / 77;
 }
 
 .header-nav {

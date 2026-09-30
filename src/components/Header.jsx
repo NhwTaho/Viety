@@ -14,15 +14,45 @@ export default function Header({ cartCount, onOpenCart, onOpenTracking, searchQu
 
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all">
+      {/* TOP ANNOUNCEMENT BAR WITH LOGO BRAND TICKER */}
+      <div className="bg-slate-900 text-white text-xs font-medium py-2 px-4 border-b border-slate-800">
+        <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
+          <div className="flex items-center gap-4 overflow-x-auto no-scrollbar whitespace-nowrap py-0.5">
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              <span className="font-semibold text-slate-200">Nhập Khẩu Máy Pha Cà Phê Ý Chính Hãng</span>
+            </div>
+            <span className="text-slate-700">|</span>
+            <div className="flex items-center gap-2 text-slate-300">
+              <img 
+                src="/favicon.png" 
+                alt="Logo Việt Ý" 
+                className="h-5 w-5 object-contain shrink-0" 
+              />
+              <span className="font-bold text-white tracking-wide">Coffee Việt Ý</span>
+            </div>
+            <span className="text-slate-700">|</span>
+            <span className="text-amber-400 font-semibold">★ Bảo Hành 24 Tháng Tận Nơi</span>
+          </div>
+
+          <div className="hidden sm:flex items-center gap-4 text-slate-300 shrink-0">
+            <a href="tel:0972006789" className="hover:text-white transition flex items-center gap-1.5 font-bold">
+              <Phone className="w-3.5 h-3.5 text-red-500" />
+              <span>Hotline: 0972.006.789</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           
           {/* LOGO */}
-          <a href="#" className="flex items-center gap-3 group">
+          <a href="#" className="flex items-center gap-3 group shrink-0">
             <img 
               src="/images/logoviety.png" 
               alt="Máy Pha Cà Phê Việt Ý" 
-              className="h-12 w-auto object-contain transition-transform group-hover:scale-105" 
+              className="h-10 sm:h-12 w-auto max-h-12 object-contain shrink-0 transition-transform group-hover:scale-105" 
             />
           </a>
 
